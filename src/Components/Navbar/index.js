@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [isActive, setisActive] = useState(false);
   return (
     <nav
-      className="navbar is-black"
+      className="navbar is-dark"
       role="navigation"
       aria-label="main navigation"
     >
