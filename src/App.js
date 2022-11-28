@@ -1,12 +1,14 @@
 import Navbar from "./Components/Navbar";
-import Body from "./Components/Body";
+import Home from "./Components/Body/Home";
+import Section1 from "./Components/Body/middleSection";
 import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Body />
+      <Home />
+      <Section1 />
       <Footer />
     </div>
   );

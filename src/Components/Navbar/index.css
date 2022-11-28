@@ -1,0 +1,13 @@
+nav.navbar {
+  height: 5rem !important;
+}
+
+.navbar-brand .navbar-item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: url(../../../public/assets/Logo.png) no-repeat center;
+  background-size: cover;
+  border: 1 px solid black;
+  width: 192px;
+}

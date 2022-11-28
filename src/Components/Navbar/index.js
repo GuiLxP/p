@@ -7,14 +7,12 @@ export const Navbar = () => {
   const [isActive, setisActive] = useState(false);
   return (
     <nav
-      className="navbar is-dark"
+      className="navbar is-black"
       role="navigation"
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a className="navbar-item" href="#home">
-          <span>teste</span>
-        </a>
+        <a className="navbar-item" href="#home"></a>
 
         <a
           onClick={() => {
@@ -62,7 +60,7 @@ export const Navbar = () => {
           <div className="navbar-item">
             <div className="buttons">
               <a
-                className="button is-success"
+                className="button is-dark"
                 href="https://github.com/guilxp"
                 target="_blank"
                 rel="noreferrer"
