@@ -4,7 +4,7 @@ export const Footer = () => {
     <footer className="footer ">
       <div className="content has-text-centered">
         <p>
-          <strong>Guilherme's Portfolio</strong> by Guilherme Pantoja
+          <strong>Guilherme's Portfolio</strong> by Guilherme
         </p>
       </div>
     </footer>

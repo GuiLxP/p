@@ -10,7 +10,7 @@ export const Home = () => {
         <div className="column is-12">
           <section className="section is-large ">
             <div className="box">
-              <h1 className="title is-1">
+              <h1 className="title is-1 has-text-centered">
                 <TypeAnimation
                   sequence={[
                     "Hello!!",
