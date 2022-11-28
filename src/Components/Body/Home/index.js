@@ -6,7 +6,7 @@ import "./index.css";
 export const Home = () => {
   return (
     <>
-      <div className="container.is-fluid columns">
+      <div className="container.is-fluid columns is-horizontal">
         <div className="column is-12">
           <section className="section is-large ">
             <div className="box">

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 div div section div .title.is-1 {
-  font-family: Nerko One;
+  font-family: "Ubuntu", sans-serif;
 }
