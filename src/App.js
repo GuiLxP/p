@@ -1,6 +1,6 @@
+import MiddleSection from "./Components/Body/MiddleSection";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Body/Home";
-import Section1 from "./Components/Body/middleSection";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
-      <Section1 />
+      <MiddleSection />
       <Footer />
     </div>
   );
