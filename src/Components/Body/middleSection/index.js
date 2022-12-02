@@ -6,52 +6,44 @@ export const MiddleSection = () => {
       <section className="hero is-fullheight is-black ">
         <div className="hero-body">
           <div class="tile is-ancestor">
-            <div class="tile is-vertical is-8">
-              <h1 className="title">Principais Projetos</h1>
-              <header>
-                <span className="date">Thursday, August 8th</span>
-                <h1>Today</h1>
-                <div className="avatar"></div>
-              </header>
+            <div class="tile is-vertical is-6">
+              <h1 className="title">Principais </h1>
+              <span className="subtitle">
+                Alguns dos meus projetos no qual realizei em 6 meses de
+                experiência com Front
+              </span>
               <div class="tile">
-                <div class="tile is-parent is-vertical">
-                  <article class="tile is-child notification is-primary">
-                    <p class="title">Vertical...</p>
-                    <p class="subtitle">Top tile</p>
-                  </article>
-                  <article class="tile is-child notification is-warning">
-                    <p class="title">...tiles</p>
-                    <p class="subtitle">Bottom tile</p>
-                  </article>
-                </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child notification is-info">
-                    <p class="title">Middle tile</p>
-                    <p class="subtitle">With an image</p>
-                    <figure class="image is-4by3">
-                      <img
-                        src="https://bulma.io/images/placeholders/640x480.png"
-                        alt=""
-                      />
-                    </figure>
+                  <article class="tile is-child notification is-dark">
+                    <div class="content">
+                      <p class="title">Organo</p>
+                      <p class="subtitle">
+                        O projeto consiste em ter um organograma onde você
+                        preenche as informações e vai montando times de acordo
+                        com os dados preenchidos
+                      </p>
+                    </div>
                   </article>
                 </div>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child notification is-danger">
-                  <p class="title">Wide tile</p>
-                  <p class="subtitle">Aligned with the right tile</p>
-                  <div class="content"></div>
-                </article>
               </div>
             </div>
             <div class="tile is-parent">
-              <article class="tile is-child notification is-success">
-                <div class="content">
-                  <p class="title">Tall tile</p>
-                  <p class="subtitle">With even more content</p>
-                  <div class="content"></div>
-                </div>
+              <article class="tile is-child notification is-dark">
+                <p class="title">Organo</p>
+                <a
+                  href="https://organo-64bkxtdd5-guilhermematheus166-gmailcom.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  noopener
+                >
+                  <span className="subtitle">Click here for demonstration</span>
+                </a>
+                <figure class="image is-4by3">
+                  <img
+                    src="https://bulma.io/images/placeholders/640x480.png"
+                    alt=""
+                  />
+                </figure>
               </article>
             </div>
           </div>

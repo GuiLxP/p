@@ -7,8 +7,8 @@ export const Home = () => {
   return (
     <>
       <div className="container.is-fluid columns is-horizontal">
-        <div className="column is-12">
-          <section className="section is-large ">
+        <div className=" column is-12 is-centered">
+          <section className=" section is-large ">
             <div className="box">
               <h1 className="title is-1 has-text-centered">
                 <TypeAnimation
